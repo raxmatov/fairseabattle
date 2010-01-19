@@ -1,0 +1,29 @@
+UI:
+- save menu state on exit and restore it on start program
+- control window size
+- add counts of hits (under fields?)
+- more readable colors of items?
+- messages "you win" / "you lose"?
+  or small fireworks after win?
+- field editor?
+- palette editor
+- icon for MS Windows
+
+AI:
+- make AI more efficient
+
+Dist:
+- MacOS dist
+- MS Windows dist as solid exe-file
+
+Network:
+- subj... but may be Web?
+
+qmake:
+- move extratargets out from project file
+
+Q:
+- is it good, that BSMap::operator[](...) return T*? not!
+- is it good, that BSArenaKey::apply_fire(...) wanish all marks at game over?
+- is it good, that BSMap<int> is a class memger of BSArenaPuzzle?
+  it is better to make it just auto variable?
